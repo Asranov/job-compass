@@ -7,7 +7,7 @@ const CInput: React.FC<CInputTypes> = ({
   onChange,
   placeholder = "Please enter text...",
   icon,
-  type = "text",
+  type,
 }) => {
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     onChange(event.target.value);
