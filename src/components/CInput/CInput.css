@@ -1,0 +1,36 @@
+.input__container {
+    width: 100%;
+    position: relative;
+}
+
+.input-icon svg {
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    font-size: 1.375rem;
+    line-height: 1;
+}
+
+.input {
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 0;
+    border-radius: 5px;
+    background-color: var(--info-color);
+    outline: none;
+    padding: 12px 40px;
+    border: 1px solid var(--secondary-color);
+}
+
+.input-noicon {
+    padding: 12px 25px;
+}
+
+.input:focus {
+    border: 2px solid var(--primary-color);
+}
+
+.input__container:focus-within .input-icon svg {
+    color: var(--primary-color);
+}
