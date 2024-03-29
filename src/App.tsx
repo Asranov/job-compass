@@ -1,8 +1,8 @@
 import React from "react";
-import { Router } from "./router/Router";
+import Header from "./layouts/Header";
 
 const App: React.FC = () => {
-  return <Router />;
+  return <Header />;
 };
 
 export default App;

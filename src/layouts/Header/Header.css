@@ -1,0 +1,36 @@
+.header {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 5rem;
+}
+
+.header-logo {
+    padding: 0.5rem;
+    background: var(--primary-color);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header button {
+    width: 150px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .header {
+        gap: 0.5rem;
+        padding: 1rem 2rem;
+    }
+    
+    .header button {
+        width: 100px;
+    }
+    
+}
