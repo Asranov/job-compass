@@ -1,9 +1,9 @@
 import { IUser } from "./IUser";
 
 export interface IPost {
-  postId: number;
+  id: number;
   title: string;
   description: string;
   images: string[];
-  postOwner: IUser;
+  owner: IUser;
 }
