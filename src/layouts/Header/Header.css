@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: var(--secondary-color);
     gap: 1rem;
     padding: 2rem 5rem;
 }
