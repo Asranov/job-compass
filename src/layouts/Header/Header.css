@@ -27,7 +27,7 @@
 @media only screen and (max-width: 767px) {
     .header {
         gap: 0.5rem;
-        padding: 1rem 2rem;
+        padding: 2rem;
     }
     
     .header button {
