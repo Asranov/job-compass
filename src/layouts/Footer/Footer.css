@@ -1,0 +1,8 @@
+.footer {
+    padding: 2rem 5rem;
+    background-color: var(--secondary-color);
+}
+
+.footer__copyright {
+    text-align: center;
+}

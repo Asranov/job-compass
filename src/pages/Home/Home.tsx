@@ -6,11 +6,13 @@ import { MdMoreVert } from "react-icons/md";
 import { FaPlus } from "react-icons/fa";
 import { users } from "../../db/users";
 import { posts } from "../../db/posts";
+import Footer from "../../layouts/Footer";
 
 const Home: React.FC = () => {
   return (
     <div>
       <Header />
+
       <main className="main__container">
         <div className="posts__wrapper">
           {posts.map((post) => {
@@ -26,7 +28,7 @@ const Home: React.FC = () => {
                       </p>
                     </div>
                   </div>
-                  <MdMoreVert className="more-icon"/>
+                  <MdMoreVert className="more-icon" />
                 </div>
                 <div className="post__info">
                   <h3 className="post__info-title">{post.title}</h3>
@@ -57,6 +59,8 @@ const Home: React.FC = () => {
           })}
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 };
