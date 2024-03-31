@@ -24,7 +24,12 @@ const Home: React.FC = () => {
         <div className="vacancy__card">
           {filteredVacancies.length > 0 ? (
             filteredVacancies.map((vacancy) => (
-              <Link to={`/vacancy/${vacancy.id}`} key={vacancy.id} className="vacancy__card-wrapper">
+              <Link 
+                to={`/vacancy/${vacancy.id}`} 
+                key={vacancy.id}
+                className="vacancy__card-wrapper"
+                state={{vacancy: vacancy}}  
+              >
                 <div className="vacancy__owner">
                   <div className="vacancy__owner-details">
                     <FaRegUserCircle className="icon-user" />
