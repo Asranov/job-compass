@@ -7,6 +7,7 @@ import { FaPlus } from "react-icons/fa";
 import { users } from "../../db/users";
 import Footer from "../../layouts/Footer";
 import { vacancies } from "../../db/vacancies";
+import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   const [search, setSearch] = useState("");
@@ -23,7 +24,7 @@ const Home: React.FC = () => {
         <div className="vacancy__card">
           {filteredVacancies.length > 0 ? (
             filteredVacancies.map((vacancy) => (
-              <div key={vacancy.id} className="vacancy__card-wrapper">
+              <Link to={`/vacancy/${vacancy.id}`} key={vacancy.id} className="vacancy__card-wrapper">
                 <div className="vacancy__owner">
                   <div className="vacancy__owner-details">
                     <FaRegUserCircle className="icon-user" />
@@ -63,7 +64,7 @@ const Home: React.FC = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))
           ) : (
             <p className="vacancy__card-nofound">No vacancies found</p>
