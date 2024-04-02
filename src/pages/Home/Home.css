@@ -63,7 +63,7 @@
 
 .follow__card {
     width: 40%;
-    height: 400px;
+    height: max-content;
     background: #fff;
     display: flex;
     flex-direction: column;
