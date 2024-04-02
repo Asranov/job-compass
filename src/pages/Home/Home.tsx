@@ -51,22 +51,6 @@ const Home: React.FC = () => {
                     <p>- Status: {vacancy.status}</p>
                     <p>- Location: {vacancy.location}</p>
                     <p>- Salary: {vacancy.salary}</p>
-                    <p>
-                      - Requirements:
-                      {vacancy.requirements.map((requirement, index) => (
-                        <p key={index} className="vacancy__info-requirement">
-                          • {requirement}
-                        </p>
-                      ))}
-                    </p>
-                    <p>
-                      - Responsibilities:
-                      {vacancy.responsibilities?.map((responsibility, index) => (
-                        <p key={index} className="vacancy__info-requirement">
-                          • {responsibility}
-                        </p>
-                      ))}
-                    </p>
                   </div>
                 </div>
               </Link>
