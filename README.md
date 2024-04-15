@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+JobCompass
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+JobCompass is a web platform dedicated to helping students find their first job or internship opportunities. Whether you're looking for a summer internship or your first entry-level position, JobFinder streamlines the process of discovering relevant job listings in your desired field.
 
-## Available Scripts
+Features
+Search Functionality: Easily search for internships or jobs based on keywords, location, industry, and more.
+User Registration and Profiles: Create a personalized account to save favorite job listings and track application progress.
+Customized Notifications: Receive notifications for new job postings matching your preferences.
+User-Friendly Interface: Intuitive design and user experience make job hunting straightforward and efficient.
 
-In the project directory, you can run:
+Installation
+Clone the repository: git clone https://github.com/Asranov/job-compass
+Navigate to the project directory: cd job-compass
+Install dependencies: npm install
+Start the development server: npm start
 
-### `npm start`
+Usage
+Register for an account on JobCompass or log in if you already have one.
+Use the search bar to find relevant job listings based on your criteria.
+Click on a job listing to view more details and apply.
+Save favorite job listings to your profile for future reference.
+Receive notifications for new job postings matching your preferences.
+Contributing
+We welcome contributions from the community to improve JobCompass. To contribute:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Fork the repository.
+Create your feature branch: git checkout -b feature/my-feature
+Commit your changes: git commit -am 'Add my feature'
+Push to the branch: git push origin feature/my-feature
+Submit a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Contact
+For any inquiries or feedback, please contact us at t.me/asrnvb.
 
-### `npm test`
+Acknowledgements
+We would like to thank the following resources and individuals for their contributions to this project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Disclaimer
+JobCompass is a project developed for educational and informational purposes. We do not guarantee the accuracy or availability of job listings displayed on the platform.
